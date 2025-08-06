@@ -150,7 +150,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: username/taski_frontend:latest
+          tags: batmd/taski_frontend:latest
 
   deploy:
     runs-on: ubuntu-latest
